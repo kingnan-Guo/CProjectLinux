@@ -24,6 +24,8 @@
 
 // argc 执行命令时参数的的个数 
 // *argv[] 执行命令时 所有的如参的 数组
+
+// 使用  ./echoClient "this is " 传递参数 给 argv
 int main(int argc, char const *argv[])
 {
     // 准备 一个邮箱
