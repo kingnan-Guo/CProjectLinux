@@ -19,7 +19,7 @@
 #include <ctype.h> //C类型定义的
 #include <arpa/inet.h>//网络相关的
 
-#define SERVER_PORT 666
+#define SERVER_PORT 8091
 
 int main()
 {
@@ -60,6 +60,7 @@ int main()
     while (done)
     {
         // printf("while");
+        // printf("监听中 %u \n", SERVER_PORT);
         struct sockaddr_in client;
         // printf("client = %d", client);
         // 定义客户端 sock
