@@ -60,7 +60,6 @@ int main(int argc, char const *argv[])
         
         // xi
         write(sockFd, message, strlen(message));
-        printf(" -- server_addr.sin_port -- \n");
         int n;
         char buffer[256];
         n = read(sockFd, buffer, sizeof(buffer) - 1);
